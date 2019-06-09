@@ -1,5 +1,4 @@
 <h2>Hastacien Proyects</h2> 
-<br>
 <p>Estamos trabajando con Proyectos de creacion de App web basadas en javascript 
 en relacion a la contabilidad, finanzas entre otros.
 </p>
@@ -15,10 +14,6 @@ en relacion a la contabilidad, finanzas entre otros.
         <p>  El algoritmo desarrollado para esta aplicacion 
                 esta constituido por el Codigo de Trabajo donde
                 se encuentran las normas que regulan este calculo.</p>
-
-
-
-<br>
 <h3>Condiciones de Uso</h3>
 <br>
 <p>Estas herramientas es para uso no comercial por estudiantes y en especial
