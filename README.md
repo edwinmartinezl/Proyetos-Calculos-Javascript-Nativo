@@ -6,15 +6,13 @@ en relacion a la contabilidad, finanzas entre otros.
 <h3>Este Proyecto esta desarrollado por: Edwin Martinez Lara
         Para mas informacion: edwinmartinezlara@gmail.com
         Santo Domingo / Republica Dominicana</h3>
-<p>--------------- Importante ----------------------------
-        Esta es una Aplicacion web basada en Javascript sobre 
+<pEsta es una Aplicacion web basada en Javascript sobre 
         el calculo de las prestaciones laborales de este 
         pais, este programa no sustituye a la aplicacion
         official del Ministerio de Trabajo de la Republica
         Dominicana, cuyo enlace es el siguiente:
         https://calculo.mt.gob.do/</p>
-        <p>------------ Notas ----------------------------
-                El algoritmo desarrollado para esta aplicacion 
+        <p>  El algoritmo desarrollado para esta aplicacion 
                 esta constituido por el Codigo de Trabajo donde
                 se encuentran las normas que regulan este calculo.</p>
 
