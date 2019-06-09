@@ -1,0 +1,30 @@
+body{ background-color: #c2fbc5;}
+.mainBox{ width: 90%; height: auto; margin-left: 5%; background-color: aliceblue; box-shadow: -4px 3px 9px 2px #423e3e99;}
+.title{ font-size: 110%; font-family: arial; margin-left: 5%; margin-top: 5%; padding-top: 3%;border-style: solid; border-width: 1px;border-left-width: 0px;border-right-width: 0px;border-bottom-width: 1px;border-top-width: 0px; border-color: #a09d9d42; }
+.timeJob{ font-size: 95%; font-family: arial; margin-left: 5%;margin-top: 5%;  font-weight: bold;  }
+.from{ font-size: 90%; font-family: arial; margin-left: 5%;margin-top: 5%;}
+.fromDate{font-size: 90%;font-family: consolas; margin-left: 1%;}
+.until{ font-size: 90%; font-family: arial; margin-left: 5%;margin-top: 5%;}
+.paymentJob{ font-size: 95%; font-family: arial; margin-left: 5%;margin-top: 3%; font-weight: bold;}
+.paymentValue{ font-size: 90%; font-family: arial; margin-left: 5%;margin-top: 5%;}
+.valuePayment{font-size: 90%;font-family: consolas; margin-left: 1%;}
+.calculate{ font-size: 95%; font-family: arial; margin-left: 5%; font-weight: bold;}
+.results{ width: 90%; height: auto; margin-left: 5%; background-color: aliceblue; box-shadow: -4px 3px 9px 2px #423e3e99; }
+.table{ width: 100%; background-color: white; border-width: 0px;}
+.thTitle {border-width: 0px;border-bottom-width: 1px; text-align: left;}
+.cValues {border-width: 0px;     font-family: consolas;}
+.totalpres{padding-top: 20px;}
+.enterInput{border-style: solid; border-color: darkcyan;;}
+.errorDateInputEfects{border-style: solid; border-color: red;}
+.obligatorio1{color: rgb(255, 0, 0); font-weight: bold; font-size: 112%;}
+.correctInputDate{border-style: solid; border-color: rgb(11, 161, 61);   }
+.generalResults{padding-left: 50%; font-family: consolas; letter-spacing: 1px;}
+.monedaRD{font-weight: bold; font-size: 113%; letter-spacing: 0px;}
+.table2{ width: 100%; background-color: yellow; border-width: 0px; border-color: yellow;}
+.change:hover{cursor: pointer; color: green; font-weight: bold};
+
+
+
+
+
+

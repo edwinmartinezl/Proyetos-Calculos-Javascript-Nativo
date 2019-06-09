@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prestaciones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+  <div class="mainBox">
+<div class="title">Calculo de las Prestaciones Laborales RD (CALPRES)</div>
+<div class="timeJob">Tiempo Laborando:</div>
+<br>
+<span class="from"><span class="obligatorio1">*</span>Desde  <input type="date" class="fromDate" id="dateInput" title="En la parte derecha pulsa la flecha para desplegar el Calendario /-- dd: Dias, mm: Meses, aaaa: Años."></span>
+<span class="until"><span class="obligatorio1">*</span>Hasta  <input type="date" class="fromDate" id="dateOut" title="Pulsa el la flecha para desplegar el Calendario /-- dd: Dias, mm: Meses, aaaa: Años."></span>
+<div class="paymentJob" > <span class="obligatorio1">*</span>Sueldo:</div>
+<div class="paymentJob"><input type="radio" name="change" id="for30" >
+  Mensual  <input type="radio" name="change" id="for15" >
+  Quincenal 
+  <input type="radio" name="change" id="for7" > 
+  Semanal        </div>
+<br>
+<span class="paymentValue"><span class="obligatorio1">*</span>Monto en RD$ <input type="number" class="valuePayment" id="price">   </span>
+<button class="calculate" id="get">Calcular</button>
+<button class="calculate" id="reset" >Limpiar</button>
+<br>
+<br>
+<br>
+  </div> 
+  <!-- here goes the results  -->
+  <div class="results" id="controlResults" style="display:none">
+<br>
+<table border="2px" class="table">
+<tr> <th class="thTitle">Nombre</th><th class="thTitle">Dias</th><th class="thTitle">Meses</th><th class="thTitle">Años</th> <th class="thTitle">Suel.Diario</th> <th class="thTitle">Aplica</th><th class="thTitle">Total</th>    </tr>
+<tr id="tr1"> <td class="cValues change x" id="preavisoChange">  Preaviso </td><td class="cValues" id="dayValue"><!-- show from code Js the Days --></td> <td class="cValues" id="monthValue"><!-- show from code Js the Months --></td> <td class="cValues" id="yearValue"><!-- show from code Js the Years --></td> <td class="cValues" id="priceValue"></td>  <td class="cValues" id="tableDay"></td> <td class="cValues" id="egual"></td> </tr>
+<tr> <td class="cValues change">Vacaciones</td><td class="cValues" id="dayValueVac"><!-- show from code Js the Days --></td> <td class="cValues" id="monthValueVaca"><!-- show from code Js the Months --></td> <td class="cValues" id="yearValueVaca"><!-- show from code Js the Years --></td> <td class="cValues" id="priceValueVaca"></td>  <td class="cValues" id="tableDayVacaciones"><!-- apply for --></td> <td class="cValues" id="egualVaca"></td> </tr>
+<tr> <td class="cValues change">Cesantia</td><td class="cValues" id="dayValueCesantia"><!-- show from code Js the Days --></td> <td class="cValues" id="monthValueCesantia"><!-- show from code Js the Months --></td> <td class="cValues" id="yearValueCesantia"><!-- show from code Js the Years --></td> <td class="cValues" id="priceValueCesantia"></td>  <td class="cValues" id="tableDayCesantia"><!-- apply for --></td> <td class="cValues" id="egualCesantia"></td> </tr>
+<tr> <td class="cValues change">Regalia</td><td class="cValues" id="dayRegalia"><!-- show from code Js the Days --></td> <td class="cValues" id="monthRegalia"><!-- show from code Js the Months --></td> <td class="cValues" id="yearRegalia"><!-- show from code Js the Years --></td> <td class="cValues" id="priceRegalia"></td>  <td class="cValues" id="applyRegalia"><!-- apply for --></td> <td class="cValues" id="egualRegalia"></td> </tr>
+</table>
+<br>
+<br>
+<!-- total results general -->
+<table border="2px" class="table2">
+<tr> <th class="generalResults"><span class="monedaRD">TOTAL PRESTACIONES RD$:</span> <span id="generalAll"><!-- here goes total prestaciones --></span>    </th>      </tr>
+
+</table>
+
+<br><br><br><br><br>
+  </div>
+
+
+
+
+
+</body>
+</html>

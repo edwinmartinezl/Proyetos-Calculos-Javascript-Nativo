@@ -1,0 +1,9 @@
+error-01:
+Es cuando la fecha de entrada es mayor que la fecha de salida.
+Ej.: si entraste a laborar en el año 2018 No puedes ser despedido
+o a ver renunciado en el año 2017.
+
+error-02:
+Es cuando el usuario pulsa calcular sin escribir nada en las fechas
+de entradas y salidas. o la fecha esta incompleta
+
